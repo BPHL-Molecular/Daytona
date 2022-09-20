@@ -6,7 +6,12 @@ The pipeline is a Nextflow version of the Flaq_flaq_sc2 pipeline (FL BPHL's SARS
 ## Prerequisites
 Nextflow should be installed. The detail of installation can be found in https://github.com/nextflow-io/nextflow.
 
-The below docker container images are needed in the pipeline. These images should be downloaded to the directory /apps/staphb-toolkit/containers/ in your local computer. You can find them from ncbi/sra-human-scrubber (https://hub.docker.com/r/ncbi/sra-human-scrubber) and StaPH-B/docker-builds (https://github.com/StaPH-B/docker-builds).
+Python3 is needed.
+
+Singularity is also needed. The detail of installation can be found in https://singularity-tutorial.github.io/01-installation/.
+
+In addition, the below docker container images are needed in the pipeline. These images should be downloaded to the directory /apps/staphb-toolkit/containers/ in your local computer. You can find them from ncbi/sra-human-scrubber (https://hub.docker.com/r/ncbi/sra-human-scrubber) and StaPH-B/docker-builds (https://github.com/StaPH-B/docker-builds).
+
 1. fastqc_0.11.9.sif
 2. trimmomatic_0.39.sif
 3. bbtools_38.76.sif
