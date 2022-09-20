@@ -1,4 +1,4 @@
-# The parameters "input", "output" and "reference" are the absolute paths. Do not include the "/" at the end of the paths.
+# The parameters "input", "output", "reference" and "primer" are the absolute paths. Do not include the "/" at the end of the paths.
 input          : "/blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/fastqs"
 output    : "/blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output"
 reference      : "/blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/reference"

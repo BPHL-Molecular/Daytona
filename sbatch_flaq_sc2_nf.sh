@@ -11,7 +11,7 @@
 #Run script/command and use $SLURM_CPUS_ON_NODE
 module load singularity
 
-nextflow run flaq_sc2_nf.nf -params-file params.yaml
+nextflow run flaq_sc2_humanclean.nf -params-file params.yaml
 
 sort ./output/*/report.txt | uniq > ./output/sum_report.txt
 sed -i '/sampleID\treference/d' ./output/sum_report.txt
