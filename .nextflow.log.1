@@ -1,0 +1,87 @@
+Sep-22 14:50:50.474 [main] DEBUG nextflow.cli.Launcher - $> nextflow run flaq_sc2_humanclean2.nf -params-file params.yaml
+Sep-22 14:50:50.593 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 21.10.6
+Sep-22 14:50:50.630 [main] INFO  nextflow.cli.CmdRun - Launching `flaq_sc2_humanclean2.nf` [sad_shirley] - revision: febf93510e
+Sep-22 14:50:50.795 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; plugins-dir=/home/dongyibo/.nextflow/plugins
+Sep-22 14:50:50.798 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Sep-22 14:50:50.813 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Sep-22 14:50:50.814 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Sep-22 14:50:50.819 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Sep-22 14:50:50.833 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Sep-22 14:50:50.905 [main] DEBUG nextflow.Session - Session uuid: e30c9e5d-ddef-4f77-a41c-4f785db8f326
+Sep-22 14:50:50.905 [main] DEBUG nextflow.Session - Run name: sad_shirley
+Sep-22 14:50:50.907 [main] DEBUG nextflow.Session - Executor pool size: 32
+Sep-22 14:50:50.996 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 21.10.6 build 5660
+  Created: 21-12-2021 16:55 UTC (11:55 EDT)
+  System: Linux 3.10.0-1062.18.1.el7.x86_64
+  Runtime: Groovy 3.0.9 on OpenJDK 64-Bit Server VM 1.8.0_312-b07
+  Encoding: UTF-8 (UTF-8)
+  Process: 21027@login2.ufhpc [172.16.206.10]
+  CPUs: 32 - Mem: 25.1 GB (22.5 GB) - Swap: 8 GB (8 GB)
+Sep-22 14:50:51.024 [main] DEBUG nextflow.Session - Work-dir: /blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/work [lustre]
+Sep-22 14:50:51.024 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/bin
+Sep-22 14:50:51.035 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Sep-22 14:50:51.049 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Sep-22 14:50:51.100 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 33; maxThreads: 1000
+Sep-22 14:50:51.231 [main] DEBUG nextflow.Session - Session start invoked
+Sep-22 14:50:52.584 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Sep-22 14:50:52.767 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Sep-22 14:50:52.767 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Sep-22 14:50:52.773 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Sep-22 14:50:52.780 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=32; memory=25.1 GB; capacity=32; pollInterval=100ms; dumpInterval=5m
+Sep-22 14:50:52.804 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 33; maxThreads: 1000
+Sep-22 14:50:52.903 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Sep-22 14:50:52.903 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Sep-22 14:50:52.907 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Sep-22 14:50:52.907 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Sep-22 14:50:52.911 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Sep-22 14:50:52.911 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Sep-22 14:50:52.917 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Sep-22 14:50:52.917 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Sep-22 14:50:52.944 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: nofrag, frag, primer, assembly, pystats, quality
+Sep-22 14:50:52.945 [main] DEBUG nextflow.Session - Ignite dataflow network (6)
+Sep-22 14:50:52.945 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > quality
+Sep-22 14:50:52.946 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > frag
+Sep-22 14:50:52.946 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > primer
+Sep-22 14:50:52.946 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > assembly
+Sep-22 14:50:52.947 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > pystats
+Sep-22 14:50:52.947 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Sep-22 14:50:52.947 [main] DEBUG nextflow.Session - Session await
+Sep-22 14:50:53.230 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Sep-22 14:50:53.235 [Task submitter] INFO  nextflow.Session - [13/9ba893] Submitted process > quality (1)
+Sep-22 14:50:53.243 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Sep-22 14:50:53.243 [Task submitter] INFO  nextflow.Session - [9a/2cc490] Submitted process > quality (2)
+Sep-22 14:53:38.867 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: quality (1); status: COMPLETED; exit: 0; error: -; workDir: /blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/work/13/9ba893178a157f4f71c89627b98552]
+Sep-22 14:53:38.915 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Sep-22 14:53:38.916 [Task submitter] INFO  nextflow.Session - [8b/7c0933] Submitted process > frag (1)
+Sep-22 14:53:40.695 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: quality (2); status: COMPLETED; exit: 0; error: -; workDir: /blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/work/9a/2cc490c937ef48a246f8c4ae9945ef]
+Sep-22 14:53:40.705 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Sep-22 14:53:40.706 [Task submitter] INFO  nextflow.Session - [f0/57ae95] Submitted process > frag (2)
+Sep-22 14:54:46.617 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: frag (1); status: COMPLETED; exit: 0; error: -; workDir: /blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/work/8b/7c093355e80a06924e9961113f3800]
+Sep-22 14:54:46.640 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Sep-22 14:54:46.641 [Task submitter] INFO  nextflow.Session - [2c/7c6a5c] Submitted process > primer (1)
+Sep-22 14:54:48.676 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: frag (2); status: COMPLETED; exit: 0; error: -; workDir: /blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/work/f0/57ae950a0842c20e38ca4ab4d1ed3a]
+Sep-22 14:54:48.684 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Sep-22 14:54:48.685 [Task submitter] INFO  nextflow.Session - [86/e18e22] Submitted process > primer (2)
+Sep-22 14:55:09.167 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: primer (1); status: COMPLETED; exit: 0; error: -; workDir: /blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/work/2c/7c6a5c7f364837a1ef6453d93b4f69]
+Sep-22 14:55:09.184 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Sep-22 14:55:09.184 [Task submitter] INFO  nextflow.Session - [83/a48859] Submitted process > assembly (1)
+Sep-22 14:55:11.351 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: primer (2); status: COMPLETED; exit: 0; error: -; workDir: /blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/work/86/e18e220326a7951fc0833a4216ebdb]
+Sep-22 14:55:11.363 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Sep-22 14:55:11.364 [Task submitter] INFO  nextflow.Session - [a8/c7314c] Submitted process > assembly (2)
+Sep-22 14:55:30.229 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 7; name: assembly (1); status: COMPLETED; exit: 0; error: -; workDir: /blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/work/83/a48859021fb5aa5bb5f9660bad22c5]
+Sep-22 14:55:30.256 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Sep-22 14:55:30.257 [Task submitter] INFO  nextflow.Session - [c8/50a797] Submitted process > pystats (1)
+Sep-22 14:55:32.351 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 8; name: assembly (2); status: COMPLETED; exit: 0; error: -; workDir: /blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/work/a8/c7314c85fc44227f076abacd9bf505]
+Sep-22 14:55:32.361 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Sep-22 14:55:32.361 [Task submitter] INFO  nextflow.Session - [96/6c84b4] Submitted process > pystats (2)
+Sep-22 14:55:52.979 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 2 -- submitted tasks are shown below
+~> TaskHandler[id: 9; name: pystats (1); status: RUNNING; exit: -; error: -; workDir: /blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/work/c8/50a797a288f7474c0335900a4e065b]
+~> TaskHandler[id: 10; name: pystats (2); status: RUNNING; exit: -; error: -; workDir: /blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/work/96/6c84b494adf4610f68bbd598bcb862]
+Sep-22 14:56:05.761 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 9; name: pystats (1); status: COMPLETED; exit: 0; error: -; workDir: /blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/work/c8/50a797a288f7474c0335900a4e065b]
+Sep-22 14:56:08.292 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 10; name: pystats (2); status: COMPLETED; exit: 0; error: -; workDir: /blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/work/96/6c84b494adf4610f68bbd598bcb862]
+Sep-22 14:56:08.294 [main] DEBUG nextflow.Session - Session await > all process finished
+Sep-22 14:56:08.295 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Sep-22 14:56:08.305 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=10; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=10m 27s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=2; peakCpus=2; peakMemory=0; ]
+Sep-22 14:56:08.512 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
+Sep-22 14:56:08.522 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

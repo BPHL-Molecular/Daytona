@@ -1,0 +1,5 @@
+[33mWARNING:[0m underlay of /usr/share/zoneinfo/Etc/UTC required more than 50 (64) bind mounts
+Started analysis of XJMV22000758_1.fastq.gz
+.command.run: line 70: 13628 Hangup                  tee .command.out < $cout
+.command.run: line 70: 13629 Hangup                  tee .command.err < $cerr 1>&2
+.command.run: line 70: 13630 Hangup                  ( nxf_launch ) > $cout 2> $cerr

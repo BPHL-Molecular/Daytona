@@ -1,0 +1,167 @@
+[33mWARNING:[0m underlay of /usr/share/zoneinfo/Etc/UTC required more than 50 (64) bind mounts
+Started analysis of JMV22000758_1.fastq.gz
+Approx 5% complete for JMV22000758_1.fastq.gz
+Approx 10% complete for JMV22000758_1.fastq.gz
+Approx 15% complete for JMV22000758_1.fastq.gz
+Approx 20% complete for JMV22000758_1.fastq.gz
+Approx 25% complete for JMV22000758_1.fastq.gz
+Approx 30% complete for JMV22000758_1.fastq.gz
+Approx 35% complete for JMV22000758_1.fastq.gz
+Approx 40% complete for JMV22000758_1.fastq.gz
+Approx 45% complete for JMV22000758_1.fastq.gz
+Approx 50% complete for JMV22000758_1.fastq.gz
+Approx 55% complete for JMV22000758_1.fastq.gz
+Approx 60% complete for JMV22000758_1.fastq.gz
+Approx 65% complete for JMV22000758_1.fastq.gz
+Approx 70% complete for JMV22000758_1.fastq.gz
+Approx 75% complete for JMV22000758_1.fastq.gz
+Approx 80% complete for JMV22000758_1.fastq.gz
+Approx 85% complete for JMV22000758_1.fastq.gz
+Approx 90% complete for JMV22000758_1.fastq.gz
+Approx 95% complete for JMV22000758_1.fastq.gz
+Started analysis of JMV22000758_2.fastq.gz
+Approx 5% complete for JMV22000758_2.fastq.gz
+Approx 10% complete for JMV22000758_2.fastq.gz
+Approx 15% complete for JMV22000758_2.fastq.gz
+Approx 20% complete for JMV22000758_2.fastq.gz
+Approx 25% complete for JMV22000758_2.fastq.gz
+Approx 30% complete for JMV22000758_2.fastq.gz
+Approx 35% complete for JMV22000758_2.fastq.gz
+Approx 40% complete for JMV22000758_2.fastq.gz
+Approx 45% complete for JMV22000758_2.fastq.gz
+Approx 50% complete for JMV22000758_2.fastq.gz
+Approx 55% complete for JMV22000758_2.fastq.gz
+Approx 60% complete for JMV22000758_2.fastq.gz
+Approx 65% complete for JMV22000758_2.fastq.gz
+Approx 70% complete for JMV22000758_2.fastq.gz
+Approx 75% complete for JMV22000758_2.fastq.gz
+Approx 80% complete for JMV22000758_2.fastq.gz
+Approx 85% complete for JMV22000758_2.fastq.gz
+Approx 90% complete for JMV22000758_2.fastq.gz
+Approx 95% complete for JMV22000758_2.fastq.gz
+2022-09-22 14:51:16	aligns_to version 0.60
+2022-09-22 14:51:16	hardware threads: 32, omp threads: 32
+2022-09-22 14:51:22	loading time (sec) 6
+2022-09-22 14:51:22	/tmp/tmp.yHyPdnIqGI/temp.fasta
+2022-09-22 14:51:22	0% processed
+2022-09-22 14:51:22	100% processed
+2022-09-22 14:51:22	total spot count: 0
+2022-09-22 14:51:22	total read count: 0
+2022-09-22 14:51:22	total time (sec) 6
+0  spot(s) removed.
+2022-09-22 14:51:25	aligns_to version 0.60
+2022-09-22 14:51:25	hardware threads: 32, omp threads: 32
+2022-09-22 14:51:32	loading time (sec) 6
+2022-09-22 14:51:32	/tmp/tmp.MiR7EJnGTl/temp.fasta
+2022-09-22 14:51:32	0% processed
+2022-09-22 14:51:32	100% processed
+2022-09-22 14:51:32	total spot count: 0
+2022-09-22 14:51:32	total read count: 0
+2022-09-22 14:51:32	total time (sec) 6
+0  spot(s) removed.
+[33mWARNING:[0m underlay of /usr/share/zoneinfo/Etc/UTC required more than 50 (67) bind mounts
+TrimmomaticPE: Started with arguments:
+ -phred33 -trimlog /blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758.log /blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_1_humanclean.fastq.gz /blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_2_humanclean.fastq.gz /blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_trim_1.fastq.gz /blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_unpaired_trim_1.fastq.gz /blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_trim_2.fastq.gz /blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_unpaired_trim_2.fastq.gz SLIDINGWINDOW:4:30 MINLEN:75 TRAILING:20
+Input Read Pairs: 636708 Both Surviving: 312698 (49.11%) Forward Only Surviving: 80179 (12.59%) Reverse Only Surviving: 68632 (10.78%) Dropped: 175199 (27.52%)
+TrimmomaticPE: Completed successfully
+java -ea -Xmx32352m -Xms32352m -cp /bbmap/current/ jgi.BBDuk in1=/blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_trim_1.fastq.gz in2=/blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_trim_2.fastq.gz out1=/blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_1.rmadpt.fq.gz out2=/blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_2.rmadpt.fq.gz ref=/bbmap/resources/adapters.fa stats=/blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758.adapters.stats.txt ktrim=r k=23 mink=11 hdist=1 tpe tbo
+Executing jgi.BBDuk [in1=/blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_trim_1.fastq.gz, in2=/blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_trim_2.fastq.gz, out1=/blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_1.rmadpt.fq.gz, out2=/blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_2.rmadpt.fq.gz, ref=/bbmap/resources/adapters.fa, stats=/blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758.adapters.stats.txt, ktrim=r, k=23, mink=11, hdist=1, tpe, tbo]
+Version 38.86
+
+maskMiddle was disabled because useShortKmers=true
+0.021 seconds.
+Initial:
+Memory: max=32510m, total=32510m, free=31322m, used=1188m
+
+Added 217135 kmers; time: 	0.107 seconds.
+Memory: max=32510m, total=32510m, free=30135m, used=2375m
+
+Input is being processed as paired
+Started output streams:	0.088 seconds.
+Processing time:   		1.518 seconds.
+
+Input:                  	625396 reads 		82306356 bases.
+KTrimmed:               	236 reads (0.04%) 	4298 bases (0.01%)
+Trimmed by overlap:     	56 reads (0.01%) 	338 bases (0.00%)
+Total Removed:          	6 reads (0.00%) 	4636 bases (0.01%)
+Result:                 	625390 reads (100.00%) 	82301720 bases (99.99%)
+
+Time:                         	1.725 seconds.
+Reads Processed:        625k 	362.64k reads/sec
+Bases Processed:      82306k 	47.73m bases/sec
+java -ea -Xmx33003m -Xms33003m -cp /bbmap/current/ jgi.BBDuk in1=/blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_1.rmadpt.fq.gz in2=/blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_2.rmadpt.fq.gz out1=/blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_1.fq.gz out2=/blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_2.fq.gz outm=/blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_matchedphix.fq ref=/bbmap/resources/phix174_ill.ref.fa.gz k=31 hdist=1 stats=/blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_phixstats.txt
+Executing jgi.BBDuk [in1=/blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_1.rmadpt.fq.gz, in2=/blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_2.rmadpt.fq.gz, out1=/blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_1.fq.gz, out2=/blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_2.fq.gz, outm=/blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_matchedphix.fq, ref=/bbmap/resources/phix174_ill.ref.fa.gz, k=31, hdist=1, stats=/blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_phixstats.txt]
+Version 38.86
+
+0.019 seconds.
+Initial:
+Memory: max=33165m, total=33165m, free=31954m, used=1211m
+
+Added 487396 kmers; time: 	0.089 seconds.
+Memory: max=33165m, total=33165m, free=30396m, used=2769m
+
+Input is being processed as paired
+Started output streams:	0.084 seconds.
+Processing time:   		1.748 seconds.
+
+Input:                  	625390 reads 		82301720 bases.
+Contaminants:           	0 reads (0.00%) 	0 bases (0.00%)
+Total Removed:          	0 reads (0.00%) 	0 bases (0.00%)
+Result:                 	625390 reads (100.00%) 	82301720 bases (100.00%)
+
+Time:                         	1.927 seconds.
+Reads Processed:        625k 	324.49k reads/sec
+Bases Processed:      82301k 	42.70m bases/sec
+[33mWARNING:[0m underlay of /usr/share/zoneinfo/Etc/UTC required more than 50 (64) bind mounts
+Started analysis of JMV22000758_1.fq.gz
+Approx 5% complete for JMV22000758_1.fq.gz
+Approx 10% complete for JMV22000758_1.fq.gz
+Approx 15% complete for JMV22000758_1.fq.gz
+Approx 20% complete for JMV22000758_1.fq.gz
+Approx 25% complete for JMV22000758_1.fq.gz
+Approx 30% complete for JMV22000758_1.fq.gz
+Approx 35% complete for JMV22000758_1.fq.gz
+Approx 40% complete for JMV22000758_1.fq.gz
+Approx 45% complete for JMV22000758_1.fq.gz
+Approx 50% complete for JMV22000758_1.fq.gz
+Approx 55% complete for JMV22000758_1.fq.gz
+Approx 60% complete for JMV22000758_1.fq.gz
+Approx 65% complete for JMV22000758_1.fq.gz
+Approx 70% complete for JMV22000758_1.fq.gz
+Approx 75% complete for JMV22000758_1.fq.gz
+Approx 80% complete for JMV22000758_1.fq.gz
+Approx 85% complete for JMV22000758_1.fq.gz
+Approx 90% complete for JMV22000758_1.fq.gz
+Approx 95% complete for JMV22000758_1.fq.gz
+Started analysis of JMV22000758_2.fq.gz
+Approx 5% complete for JMV22000758_2.fq.gz
+Approx 10% complete for JMV22000758_2.fq.gz
+Approx 15% complete for JMV22000758_2.fq.gz
+Approx 20% complete for JMV22000758_2.fq.gz
+Approx 25% complete for JMV22000758_2.fq.gz
+Approx 30% complete for JMV22000758_2.fq.gz
+Approx 35% complete for JMV22000758_2.fq.gz
+Approx 40% complete for JMV22000758_2.fq.gz
+Approx 45% complete for JMV22000758_2.fq.gz
+Approx 50% complete for JMV22000758_2.fq.gz
+Approx 55% complete for JMV22000758_2.fq.gz
+Approx 60% complete for JMV22000758_2.fq.gz
+Approx 65% complete for JMV22000758_2.fq.gz
+Approx 70% complete for JMV22000758_2.fq.gz
+Approx 75% complete for JMV22000758_2.fq.gz
+Approx 80% complete for JMV22000758_2.fq.gz
+Approx 85% complete for JMV22000758_2.fq.gz
+Approx 90% complete for JMV22000758_2.fq.gz
+Approx 95% complete for JMV22000758_2.fq.gz
+[WARNING]         multiqc : MultiQC Version v1.13 now available!
+[INFO   ]         multiqc : This is MultiQC v1.8
+[INFO   ]         multiqc : Template    : default
+[INFO   ]         multiqc : Searching   : /blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_1_clean_fastqc.zip
+[INFO   ]         multiqc : Searching   : /blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_1_original_fastqc.zip
+[INFO   ]         multiqc : Searching   : /blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_2_clean_fastqc.zip
+[INFO   ]         multiqc : Searching   : /blue/bphl-florida/dongyibo/Dev_flaq_sc2_nf/output/JMV22000758/JMV22000758_2_original_fastqc.zip
+[INFO   ]          fastqc : Found 2 reports
+[INFO   ]         multiqc : Compressing plot data
+[INFO   ]         multiqc : Report      : ../../../output/JMV22000758/multiqc_report.html
+[INFO   ]         multiqc : Data        : ../../../output/JMV22000758/multiqc_data
+[INFO   ]         multiqc : MultiQC complete
