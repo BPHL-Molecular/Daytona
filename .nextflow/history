@@ -1,6 +1,0 @@
-2022-09-22 13:01:00	5m 6s	marvelous_morse	OK	0ed60ad23ee14aaf237f8b4d399efb84	a6152372-af54-4dd3-bca5-cbf3fb77f6b3	nextflow run flaq_sc2_humanclean.nf -params-file params.yaml
-2022-09-22 14:26:04	1h 3m 21s	pensive_wescoff	ERR	0ed60ad23ee14aaf237f8b4d399efb84	25d5cd5b-e850-4176-94d5-a8586777feec	nextflow run flaq_sc2_humanclean.nf -params-file params.yaml
-2022-09-22 14:26:35	1h 2m 50s	hopeful_kirch	ERR	0ed60ad23ee14aaf237f8b4d399efb84	b3058816-dcfc-499e-89ab-f88f3dec56bd	nextflow run flaq_sc2_humanclean.nf -params-file params.yaml
-2022-09-22 14:27:00	4m 51s	hungry_booth	OK	df57a708a5b7894bd30b7487a9a30e4e	9b6387a6-8620-47b3-a1d7-83a186244583	nextflow run flaq_sc2_humanclean2.nf -params-file params.yaml
-2022-09-22 14:50:51	5m 18s	sad_shirley	OK	febf93510ece9139f673132804e83b86	e30c9e5d-ddef-4f77-a41c-4f785db8f326	nextflow run flaq_sc2_humanclean2.nf -params-file params.yaml
-2022-09-22 15:14:27	5m 8s	suspicious_brahmagupta	OK	febf93510ece9139f673132804e83b86	fe82a82c-1a94-495b-bc03-bdf645d34d4a	nextflow run flaq_sc2_humanclean2.nf -params-file params.yaml
