@@ -9,7 +9,8 @@
 #SBATCH --error=flaq_sc2_nf.%j.err
 
 #Run script/command and use $SLURM_CPUS_ON_NODE
-module load singularity
+#module load singularity
+module load apptainer
 
 nextflow run flaq_sc2_humanclean2.nf -params-file params.yaml
 
